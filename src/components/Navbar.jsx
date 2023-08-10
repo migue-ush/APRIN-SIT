@@ -2,19 +2,19 @@ import React from 'react'
 
 const Navbar = () => {
 return (
-    <nav className="flex  absolute items-center justify-around">
-    <ul className="flex space-x-4">
-        <li><a href="#" className="text-white">Home</a></li>
-        <li><a href="#" className="text-white">Sobre nosotros</a></li>
-        <li><a href="#" className="text-white">Servicios</a></li>
-        <li><a href="#" className="text-white">Contactos</a></li>
-    </ul>
-    <img src="../public/img/Identidad_Aprin.png" alt="" className='w-25 h-20' />
-    <ul className="flex space-x-4">
-        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-        <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
-    </ul>
-</nav>
+    <nav className=" opacity-100 gap-3 grid grid-cols-1 md:grid-cols-3  ">
+        <ul className=" space-x-4 pt-10 hidden xl:text-xl mx-auto lg:text-lg md:text-sm md:grid md:grid-cols-4">
+            <li><a href="#" className="text-white ">Home</a></li>
+            <li><a href="#" className="text-white ">Nosotros</a></li>
+            <li><a href="#" className="text-white ">Servicios</a></li>
+            <li><a href="#" className="text-white ">Contactos</a></li>
+        </ul>
+        <img src="../img/Identidad_Aprin.png" alt="" className='w-[160px] h-[112px] mx-auto ' />
+        <ul className=" hidden space-x-4 pt-10 mx-auto md:grid md:grid-cols-2 text-3xl">
+            <li><a href="#" ><i className="fa-brands fa-instagram text-white" ></i></a></li>
+            <li><a href="#"><i className="fa-brands fa-facebook text-white h-5 w-5"></i></a></li>
+        </ul>
+    </nav>
 )
 }
 
