@@ -1,4 +1,4 @@
-const Formulario = () => {
+/* const Formulario = () => {
     return (
         <div className="mb-4 bg-purple-900 p-4 md:p-8 lg:p-12">
             <h2 className="text-white text-4xl mb-4 text-center font-bold">Formulario de contacto</h2>
@@ -106,9 +106,9 @@ const Formulario = () => {
     )
 }
 
-export default Formulario
+export default Formulario */
 
-/** 
+
 
 const Formulario = () => {
     return (
@@ -225,5 +225,3 @@ const Formulario = () => {
 
 export default Formulario
 
-
-*/

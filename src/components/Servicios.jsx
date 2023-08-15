@@ -3,7 +3,8 @@ import ImgServicios from '/public/img/servicio.jpg';
 
 const Servicios = () => {
     return (
-      <div className="mx-auto p-4 bg-purple-900">
+      <div className='bg-purple-900'>
+      <div className="mx-auto p-4 bg-purple-900 container">
         
         <h1 className="text-4xl font-bold text-white bg-purple-900 text-center p-4 mb-4">SERVICIOS</h1>
 
@@ -38,6 +39,7 @@ const Servicios = () => {
             <img src={ImgServicios} alt="img-servicios" width='548' height='164' className='mx-auto md:ml-20 mt-20'/>
           </div>
 
+        </div>
         </div>
       </div>
     );
