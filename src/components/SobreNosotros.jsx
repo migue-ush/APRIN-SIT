@@ -4,24 +4,28 @@ import ImgSecond from '/public/img/desarrollo-web-a-medida-4.png';
 
 const SobreNosotros = () => {
 return (
-    <>
-    <article className='w-full flex'>
-        <section className='section-about w-full bg-violet-950'>
-            <div className='w-1/3 ml-40 py-8'>
-                <h1 className='text-4xl text-white py-8'>Sobre Nosotros</h1>
-                <p className='text-white text-xl'>Somos una empresa joven de soluciones IT que integra consultoría en informática, desarrollo de sistemas de información, diseño de soluciones, servicio de soporte técnico y asesoramiento profesional</p>        
-            </div>
-                <img src={ImgSecond} alt="desarrollo-web-a-medida-4"/>
-        </section>    
-        <section className='section-about w-full bg-violet-950'>
-                <img src={ImgFirst} alt="redes-inform-4"/>
-                <div className='w-1/3 ml-40'>
-                    <h1 className='text-4xl text-white py-8'>POR QUE ELEGIRNOS</h1>
-                    <p className='text-white text-xl'>Somos una empresa joven de soluciones IT que integra consultoría en informática, desarrollo de sistemas de información, diseño de soluciones, servicio de soporte técnico y asesoramiento profesional</p>        
+    <div className='bg-purple-900'>
+        <div className='w-full container mx-auto'>
+            <section className='section-about w-full bg-purple-900 grid grid-cols-3'>
+                <div className='w-full grid col-span-1 place-items-center place-content-center'>
+                    <h1 className='text-4xl text-white w-[70%]'>Sobre Nosotros</h1>
+                    <p className='text-white text-xl w-[80%]'>Somos una empresa joven de soluciones IT que integra consultoría en informática, desarrollo de sistemas de información, diseño de soluciones, servicio de soporte técnico y asesoramiento profesional</p>        
                 </div>
-        </section>
-    </article>
-    </>
+                <div className='grid col-span-2 place-items-center'>
+                    <img src={ImgFirst} alt="redes-inform-4" className=' w-[730px] '/>
+                </div>
+            </section>    
+            <section className='section-about w-full bg-purple-900 grid grid-cols-3'>
+                <div className='grid col-span-2 place-items-center'>
+                    <img src={ImgSecond}  alt="desarrollo-web-a-medida-4" className=' w-[825px]'/>
+                </div>
+                <div className='w-full grid col-span-1 place-items-center place-content-center'>
+                    <h1 className='text-4xl text-white w-[70%]'>POR QUE ELEGIRNOS</h1>
+                    <p className='text-white text-xl w-[80%]'>Somos una empresa joven de soluciones IT que integra consultoría en informática, desarrollo de sistemas de información, diseño de soluciones, servicio de soporte técnico y asesoramiento profesional</p>        
+                </div>
+            </section>
+        </div>
+    </div> 
 )
 }
 
