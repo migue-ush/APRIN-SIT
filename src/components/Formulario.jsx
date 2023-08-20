@@ -116,7 +116,7 @@ const Formulario = () => {
             <div className='bg-purple-900'>
                 <div className="mx-auto p-4 bg-purple-900 container">
                     <div className=" bg-purple-900 p-4 md:p-8 lg:p-12 ">
-                        <h2 className="text-white text-6xl mb-4 text-center font-bold pt-12 ">Formulario de contacto</h2>
+                        <h2 className="text-white text-3xl lg:text-4xl 2xl:text-5xl mb-4 text-center font-bold pt-12 ">FORMULARIO DE CONTACTO</h2>
                         <h6 className="text-white mb-4 text-center text-xl">Contáctese con nosotros y obtenga un asesoramiento personalizado</h6>
 
                         <div className=" mb-4 grid grid-cols-1 place-items-center pt-8">
@@ -195,13 +195,13 @@ const Formulario = () => {
                                     placeholder="Elija por el servicio que desea contactarnos"
                                     name="servicio"
                                 >
-                                    <option className=" text-black" value="servicio_1">Servicio 1</option>
-                                    <option className=" text-black" value="servicio_2">Servicio 2</option>
-                                    <option className=" text-black" value="servicio_3">Servicio 3</option>
+                                    <option className=" text-black" value="servicio_1">Diseño web</option>
+                                    <option className=" text-black" value="servicio_2">Desarrollo</option>
+                                    <option className=" text-black" value="servicio_3">Mantenimiento</option>
                                 </select>
                             </div>
                         </div>
-                        <div className="mb-4 grid grid-cols-1 place-items-center pt-8 pb-40">
+                        <div className="mb-4 grid grid-cols-1 place-items-center pt-8 pb-10">
                             <label
                                 className="text-white text-2xl pb-5"
                                 htmlFor="notas"
@@ -219,7 +219,11 @@ const Formulario = () => {
                                 />
                             </div>
                         </div>
-                        
+                        <div className="grid place-items-center py-5">
+                            <button class="bg-purple-500 hover:bg-purple-400 text-white font-bold py-4 px-8  border-b-4 border-purple-700 hover:border-purple-500 rounded-lg">
+                                Button
+                            </button>
+                        </div>
                     </div>
                 </div>
             </div>
