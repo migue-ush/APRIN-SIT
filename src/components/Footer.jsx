@@ -8,7 +8,7 @@ const Footer = () => {
                             <img
                                 src="../public/img/Identidad_Aprin.png"
                                 alt="Logo"
-                                className="w-40 h-28"
+                                className="w-40 h-28 md:h-24 xl:h-28"
                             />
                         </div>
                         <ul className="hidden  md:text-md md:grid md:grid-cols-1 ">
@@ -39,7 +39,7 @@ const Footer = () => {
                             </li>
                         </ul>
                     </div>
-                    <div className="text-center   pt-6 text-md lg:text-xl">
+                    <div className="text-center  pt-6 text-md lg:text-xl">
                         ® Derechos reservados por <strong> APRIN </strong> Solution IT
                     </div>
                 </div>
