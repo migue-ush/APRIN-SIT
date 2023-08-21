@@ -46,8 +46,8 @@ const Servicios = () => {
             <img src={ImgPlanta} alt="img-planta" width='200' height='260' className="lg:col-span-1 "/>
           </div>
     
-          <div className="col-span-3">
-            <img src={ImgServicios} alt="img-servicios" className='mx-auto md:ml-20 mt-20 w-[548px] h-[164px] md:w-[400px] md:h-[120px]'/>
+          <div className="col-span-3 grid place-items-center" >
+            <img src={ImgServicios} alt="img-servicios" className='md:ml-20 mt-20 w-[90%]'/>
           </div>
 
         </div>
