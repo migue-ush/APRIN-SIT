@@ -120,7 +120,7 @@ const Formulario = () => {
                                     as="textarea"
                                     id="notas"
                                     type="text"
-                                    className="p-3 w-full h-full bg-transparent text-white grid col-span-12"
+                                    className="p-3 w-full h-32 bg-transparent text-white grid col-span-12 resize-none"
                                     placeholder="Si lo desea agregue una pregunta o una solicitud especial"
                                     name="notas"
                                 />
