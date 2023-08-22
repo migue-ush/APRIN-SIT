@@ -1,15 +1,17 @@
 const Footer = () => {
     return (
-        <footer className="bg-gradient-to-b from-purple-900 via-purple-900 to-black">
+        <footer className="bg-gradient-to-b from-purple-900 via-purple-900 to-black" id='Footer'>
             <div className="mx-auto container">
                 <div className="bg-gradient-to-b from-purple-900 via-purple-900 to-black text-white text-center pt-10 w-full h-64">
                     <div className="grid grid-cols-2 md:grid-cols-4 gap-4 items-center pt-10">
                         <div className=" ml-8 md:ml-16">
-                            <img
-                                src="../public/img/Identidad_Aprin.png"
-                                alt="Logo"
-                                className="w-40 h-28 md:h-24 xl:h-28"
-                            />
+                            <a href="/">
+                                <img
+                                    src="../public/img/Identidad_Aprin.png"
+                                    alt="Logo"
+                                    className="w-40 h-28 md:h-24 xl:h-28"
+                                />
+                            </a>
                         </div>
                         <ul className="hidden  md:text-md md:grid md:grid-cols-1 ">
                             <li className="mr-4 font-bold">Secciones</li>
@@ -28,12 +30,12 @@ const Footer = () => {
                         </ul>
                         <ul className="list-none grid grid-cols-2 mx-auto md:ml-18">
                             <li className="mr-8">
-                                <a href="https://www.instagram.com/aprin_sit/">
+                                <a href="https://www.instagram.com/aprin_sit/" target="_blank">
                                     <i className="fab fa-instagram" style={{ fontSize: "35px" }}></i>
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.facebook.com/profile.php?id=100095344063526">
+                                <a href="https://www.facebook.com/profile.php?id=100095344063526" target="_blank">
                                     <i className="fab fa-facebook" style={{ fontSize: "35px" }}></i>
                                 </a>
                             </li>
