@@ -84,7 +84,7 @@ const Formulario = () => {
   };
 
   return (
-    <form ref={form} onSubmit={sendEmail}>
+    <form ref={form} onSubmit={sendEmail} id="Formulario">
       <div className="mb-4 bg-purple-900">
         <div className="mx-auto p-4 bg-purple-900 container">
           <div className=" bg-purple-900 p-4 md:p-8 lg:p-12 ">

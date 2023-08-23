@@ -15,10 +15,10 @@ const Footer = () => {
                         </div>
                         <ul className="hidden  md:text-md md:grid md:grid-cols-1 ">
                             <li className="mr-4 font-bold">Secciones</li>
-                            <li className="mr-4">Home</li>
-                            <li className="mr-4">Sobre Nosotros</li>
-                            <li className="mr-4">Servicios</li>
-                            <li className="mr-4">Contacto</li>
+                            <li className="mr-4"><a href="/">Home</a></li>
+                            <li className="mr-4"><a href="#Nosotros">Sobre Nosotros</a></li>
+                            <li className="mr-4"><a href="#Servicios">Servicios</a></li>
+                            <li className="mr-4"><a href="#Formulario">Contacto</a></li>
                         </ul>
                         <ul className="hidden md:grid md:grid-cols-1 ">
                             <li className="mr-4 md:text-xs">
