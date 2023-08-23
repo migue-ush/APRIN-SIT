@@ -7,7 +7,7 @@ return (
             <li className=''><a href="/" className="text-white md:col-span-1 ">Home</a></li>
             <li className=''><a href="#Nosotros" className="text-white md:col-span-1 ">Nosotros</a></li>
             <li className=''><a href="#Servicios" className="text-white md:col-span-1">Servicios</a></li>
-            <li className=''><a href="#Footer" className="text-white md:col-span-1">Contactos</a></li>
+            <li className=''><a href="#Formulario" className="text-white md:col-span-1">Contactos</a></li>
         </ul>
         <a href="/"><img src="../img/Identidad_Aprin.png" alt="" className='w-[160px] h-[112px] mx-auto ' /></a>
         <ul className=" hidden space-x-4 pt-10 mx-auto md:grid md:grid-cols-2 text-3xl">
