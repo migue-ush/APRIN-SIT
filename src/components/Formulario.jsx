@@ -16,9 +16,9 @@ const Formulario = () => {
     if (!form.current.nombre_usuario.value) {
       errors.nombre_usuario = "Debe ingresar nombre y apellido";
     } else if (form.current.nombre_usuario.value.length < 5) {
-        errors.nombre_usuario = "Mínimo 5 caracteres";
-    } else if (!/\S+@\S+\.\S+/.test(form.current.nombre_usuario.value)) {
-      errors.nombre_usuario = "Solo caracteres válidos";
+      errors.nombre_usuario = "Mínimo 5 caracteres";
+    } else if (!/^[\w@]+$/.test(form.current.nombre_usuario.value)) {
+      errors.nombre_usuario = "Solo caracteres válidos";      
     } 
 
     if (!form.current.email_usuario.value) {
@@ -27,8 +27,8 @@ const Formulario = () => {
       errors.email_usuario = "Ingrese un correo electrónico válido";
     }
 
-    if (!/^[A-Za-z]+$/.test(form.current.tel_usuario.value)) {
-      errors.tel_usuario = "Numero de teléfono inválido";
+    if (!/\d/.test(form.current.tel_usuario.value)) {
+      errors.tel_usuario = "Número de teléfono inválido";
     }
 
     if (!form.current.servicio.value) {
@@ -41,8 +41,8 @@ const Formulario = () => {
       errors.notas = "Mínimo 20 caracteres";
     } else if (form.current.notas.value.length > 200) {
       errors.notas = "Máximo 200 caracteres";
-    }else if (!/^[\w@]+$/.test(form.current.notas.value)) {
-      errors.notas = "Utilice solo letras y numeros";
+    }else if (!form.current.notas.value) {
+      errors.notas = "Utilice solo letras y números";
     }
 
     if (Object.keys(errors).length > 0) {
