@@ -6,7 +6,7 @@ import ImgServicios from '/public/img/servicio.jpg';
 const Servicios = () => {
   const [showDesignText, setShowDesignText] = useState(true);
     return (
-      <div className='bg-purple-900'>
+      <div className='bg-purple-900' id='Servicios'>
       <div className="mx-auto p-4 bg-purple-900 container">
         
         <h1 className="text-4xl font-bold text-white bg-purple-900 text-center p-4 mb-4">SERVICIOS</h1>
