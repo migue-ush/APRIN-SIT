@@ -28,12 +28,12 @@ const Footer = () => {
                         </ul>
                         <ul className="list-none grid grid-cols-2 mx-auto md:ml-18">
                             <li className="mr-8">
-                                <a href="https://www.instagram.com/aprin_sit/">
+                                <a href="https://www.instagram.com/aprin_sit/" target='_blank'>
                                     <i className="fab fa-instagram" style={{ fontSize: "35px" }}></i>
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.facebook.com/profile.php?id=100095344063526">
+                                <a href="https://www.facebook.com/profile.php?id=100095344063526" target='_blank'>
                                     <i className="fab fa-facebook" style={{ fontSize: "35px" }}></i>
                                 </a>
                             </li>
