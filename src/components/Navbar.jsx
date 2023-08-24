@@ -7,10 +7,10 @@ const NavLinks = () => {
     return (
         <>
             <ul className="ml-5 pl-5 underline-offset-8 md:pt-12 w-[60%] md:w-[100%] md:pl-0 bg-purple-900 opacity-70 rounded-xl md:bg-transparent gap-x-14 xl:text-xl lg:text-lg md:text-sm md:grid md:grid-cols-4 ">
-                <li className='text-lg font-bold pb-5 text-center pt-5  md:text-base md:font-normal md:pb-0'><a href="/" className="text-white md:col-span-1 ">Home</a></li>
-                <li className='text-lg font-bold pb-5 text-center md:text-base md:font-normal md:pb-0'><a href="#Nosotros" className="text-white md:col-span-1 ">Nosotros</a></li>
-                <li className='text-lg font-bold pb-5 text-center md:text-base md:font-normal md:pb-0'><a href="#Servicios" className="text-white md:col-span-1">Servicios</a></li>
-                <li className='text-lg font-bold pb-5 text-center md:text-base md:font-normal md:pb-0'><a href="#Formulario" className="text-white md:col-span-1">Contactos</a></li>
+                <li className='text-lg md:text-sm lg:text-lg font-bold pb-5 text-center pt-5 md:pt-0 md:font-normal md:pb-0 md:pl-4'><a href="/" className="text-white md:col-span-1 ">Home</a></li>
+                <li className='text-lg md:text-sm lg:text-lg font-bold pb-5 text-center md:font-normal md:pb-0'><a href="#Nosotros" className="text-white md:col-span-1 ">Nosotros</a></li>
+                <li className='text-lg md:text-sm lg:text-lg font-bold pb-5 text-center md:font-normal md:pb-0'><a href="#Servicios" className="text-white md:col-span-1">Servicios</a></li>
+                <li className='text-lg md:text-sm lg:text-lg font-bold pb-5 text-center md:font-normal md:pb-0'><a href="#Formulario" className="text-white md:col-span-1">Contactos</a></li>
             </ul>
         </>
     )
