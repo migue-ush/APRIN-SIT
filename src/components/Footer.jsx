@@ -1,8 +1,8 @@
 const Footer = () => {
     return (
-        <footer className="bg-gradient-to-b from-purple-900 via-purple-900 to-black" id='Footer'>
+        <footer className="bg-gradient-to-b from-purple-950 via-purple-950 to-black" id='Footer'>
             <div className="mx-auto container">
-                <div className="bg-gradient-to-b from-purple-900 via-purple-900 to-black text-white text-center pt-10 w-full h-64">
+                <div className="bg-gradient-to-b from-purple-950 via-purple-950 to-black text-white text-center pt-10 w-full h-64">
                     <div className="grid grid-cols-2 md:grid-cols-4 gap-4 items-center pt-10">
                         <div className=" ml-8 md:ml-16">
                             <a href="/">
