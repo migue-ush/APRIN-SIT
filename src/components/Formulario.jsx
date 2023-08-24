@@ -86,7 +86,6 @@ const Formulario = () => {
   return (
     <form ref={form} onSubmit={sendEmail} id="Formulario" className="h-full">
       <div className="mb-4 bg-purple-950">
-      <div className="absolute h-full w-full bg-[url('./img/Vector_4.png')] bg-cover  " />
         <div className="mx-auto p-4 bg-purple-950 container">
           <div className=" bg-purple-950 p-4 md:p-8 lg:p-12 ">
             <h2 className="text-white text-3xl uppercase lg:text-4xl 2xl:text-5xl mb-4 text-center font-bold pt-12">
@@ -230,6 +229,9 @@ const Formulario = () => {
           </div>
         </div>
       </div>
+      <a href="https://wa.me/5491154555573" target='_blank'>
+        <img src="../public/img/whatsapp_logo.svg" loading="lazy" alt="WhatsApp Logo" className="fixed bottom-12 right-12 z-50 w-16 h-auto"></img>
+      </a>
     </form>
   );
 };
