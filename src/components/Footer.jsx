@@ -1,8 +1,8 @@
 const Footer = () => {
     return (
-        <footer className="bg-gradient-to-b from-purple-900 via-purple-900 to-black" id='Footer'>
+        <footer className="bg-gradient-to-b from-purple-950 via-purple-950 to-black" id='Footer'>
             <div className="mx-auto container">
-                <div className="bg-gradient-to-b from-purple-900 via-purple-900 to-black text-white text-center pt-10 w-full h-64">
+                <div className="bg-gradient-to-b from-purple-950 via-purple-950 to-black text-white text-center pt-10 w-full h-64">
                     <div className="grid grid-cols-2 md:grid-cols-4 gap-4 items-center pt-10">
                         <div className=" ml-8 md:ml-16">
                             <a href="/">
@@ -15,10 +15,10 @@ const Footer = () => {
                         </div>
                         <ul className="hidden  md:text-md md:grid md:grid-cols-1 ">
                             <li className="mr-4 font-bold">Secciones</li>
-                            <li className="mr-4">Home</li>
-                            <li className="mr-4">Sobre Nosotros</li>
-                            <li className="mr-4">Servicios</li>
-                            <li className="mr-4">Contacto</li>
+                            <li className="mr-4"><a href="/">Home</a></li>
+                            <li className="mr-4"><a href="#Nosotros">Sobre Nosotros</a></li>
+                            <li className="mr-4"><a href="#Servicios">Servicios</a></li>
+                            <li className="mr-4"><a href="#Formulario">Contacto</a></li>
                         </ul>
                         <ul className="hidden md:grid md:grid-cols-1 ">
                             <li className="mr-4 md:text-xs">

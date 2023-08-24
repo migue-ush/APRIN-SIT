@@ -9,10 +9,11 @@ import Navbar from './components/Navbar'
 function App() {
 
   return (
-    <div className='bg-purple-900'>
+    <div className='bg-purple-950'>
       <div className="container absolute left-2/4 z-10 mx-auto -translate-x-2/4 p-4">
         <Navbar/>
       </div>
+      
       <Home/>
       <Servicios/>
       <Formulario/>

@@ -84,10 +84,10 @@ const Formulario = () => {
   };
 
   return (
-    <form ref={form} onSubmit={sendEmail}>
-      <div className="mb-4 bg-purple-900">
-        <div className="mx-auto p-4 bg-purple-900 container">
-          <div className=" bg-purple-900 p-4 md:p-8 lg:p-12 ">
+    <form ref={form} onSubmit={sendEmail} id="Formulario" className="h-full">
+      <div className="mb-4 bg-purple-950">
+        <div className="mx-auto p-4 bg-purple-950 container">
+          <div className=" bg-purple-950 p-4 md:p-8 lg:p-12 ">
             <h2 className="text-white text-3xl uppercase lg:text-4xl 2xl:text-5xl mb-4 text-center font-bold pt-12">
               Formulario de contacto
             </h2>
@@ -95,10 +95,10 @@ const Formulario = () => {
               Contáctese con nosotros y obtenga un asesoramiento personalizado
             </h6>
             <div className="mb-4 grid place-items-center grid-cols-1 pt-8">
-              <label className="text-white text-2xl pb-5" htmlFor="nombre">
+              <label className="text-white text-2xl pb-5" htmlFor="nombre_usuario">
                 Nombre y Apellido
               </label>
-              <div className="grid h-16 rounded-lg mt-2 bg-purple-700 grid-cols-12 gap-2 w-[350px] sm:w-[500px] md:w-[600px] lg:w-[940px] xl:w-[1200px] mx-auto">
+              <div className="grid h-16 rounded-lg mt-2 bg-purple-800 grid-cols-12 gap-2 w-[350px] sm:w-[500px] md:w-[600px] lg:w-[940px] xl:w-[1200px] mx-auto">
                 <span className="p-3 text-white col-span-1 grid place-content-center">
                   <i className="ml-1 fas fa-font"></i>
                 </span>
@@ -117,10 +117,10 @@ const Formulario = () => {
                 )}
             </div>
             <div className="mb-4 place-items-center grid grid-cols-1 pt-8">
-              <label className="text-white text-2xl pb-5" htmlFor="email">
+              <label className="text-white text-2xl pb-5" htmlFor="email_usuario">
                 Correo electrónico
               </label>
-              <div className="grid h-16 rounded-lg mt-2 bg-purple-700 grid-cols-12 gap-2 w-[350px] sm:w-[500px] md:w-[600px] lg:w-[940px] xl:w-[1200px] mx-auto">
+              <div className="grid h-16 rounded-lg mt-2 bg-purple-800 grid-cols-12 gap-2 w-[350px] sm:w-[500px] md:w-[600px] lg:w-[940px] xl:w-[1200px] mx-auto">
                 <span className="p-3 text-white col-span-1 grid place-content-center">
                   <i className="ml-1 fas fa-envelope"></i>
                 </span>
@@ -139,10 +139,10 @@ const Formulario = () => {
                 )}
             </div>
             <div className="mb-4 place-items-center grid grid-cols-1 pt-8">
-              <label className="text-white text-2xl pb-5" htmlFor="tel">
+              <label className="text-white text-2xl pb-5" htmlFor="tel_usuario">
                 Número de contacto
               </label>
-              <div className="grid h-16 rounded-lg mt-2 bg-purple-700 grid-cols-12 gap-2 w-[350px] sm:w-[500px] md:w-[600px] lg:w-[940px] xl:w-[1200px] mx-auto">
+              <div className="grid h-16 rounded-lg mt-2 bg-purple-800 grid-cols-12 gap-2 w-[350px] sm:w-[500px] md:w-[600px] lg:w-[940px] xl:w-[1200px] mx-auto">
                 <span className="flex items-center p-3 text-white">
                   <i className="ml-1 fas fa-phone"></i>
                 </span>
@@ -164,7 +164,7 @@ const Formulario = () => {
               <label className="text-white text-2xl pb-5" htmlFor="servicio">
                 Selecciona el servicio deseado
               </label>
-              <div className="grid h-16 rounded-lg mt-2 bg-purple-700 grid-cols-12 gap-2 w-[350px] sm:w-[500px] md:w-[600px] lg:w-[940px] xl:w-[1200px] mx-auto">
+              <div className="grid h-16 rounded-lg mt-2 bg-purple-800 grid-cols-12 gap-2 w-[350px] sm:w-[500px] md:w-[600px] lg:w-[940px] xl:w-[1200px] mx-auto">
                 <select
                   id="servicio"
                   className={`p-3 bg-transparent w-full text-white grid col-span-12 ${
@@ -204,7 +204,7 @@ const Formulario = () => {
               <label className="text-white text-2xl pb-5" htmlFor="notas">
                 ¿Tienes alguna pregunta o solicitud especial?
               </label>
-              <div className="grid place-content-center rounded-lg mt-2 bg-purple-700 grid-cols-12 gap-2 w-[350px] sm:w-[500px] md:w-[600px] lg:w-[940px] xl:w-[1200px]  mx-auto h-32">
+              <div className="grid place-content-center rounded-lg mt-2 bg-purple-800 grid-cols-12 gap-2 w-[350px] sm:w-[500px] md:w-[600px] lg:w-[940px] xl:w-[1200px]  mx-auto h-32">
                 <textarea
                   as="textarea"
                   id="notas"
@@ -221,7 +221,7 @@ const Formulario = () => {
             <div className="grid place-items-center py-5 ">
               <button                
                 type="submit"
-                className="w-44 h-16 lg:w-[300px] lg:h-20 bg-purple-500 hover:bg-purple-300 hover:text-violet-600 text-white font-bold py-4 px-8 border-b-4 border-purple-700 hover:border-purple-500 rounded-lg text-xl"
+                className="w-44 h-16 lg:w-[300px] lg:h-20 bg-purple-700 hover:bg-purple-400 hover:text-violet-600 text-white font-bold py-4 px-8 border-b-4 border-purple-700 hover:border-purple-500 rounded-lg text-xl"
               >
                 ENVIAR
               </button>
@@ -229,6 +229,9 @@ const Formulario = () => {
           </div>
         </div>
       </div>
+      <a href="https://wa.me/5491154555573" target='_blank'>
+        <img src="../public/img/whatsapp_logo.svg" loading="lazy" alt="WhatsApp Logo" className="fixed bottom-12 right-12 z-50 w-16 h-auto"></img>
+      </a>
     </form>
   );
 };
