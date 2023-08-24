@@ -13,10 +13,11 @@ function App() {
       <div className="container absolute left-2/4 z-10 mx-auto -translate-x-2/4 p-4">
         <Navbar/>
       </div>
+      
       <Home/>
       <Servicios/>
-      <SobreNosotros/>
       <Formulario/>
+      <SobreNosotros/>
       <Footer/>
     </div>
   )
