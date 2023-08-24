@@ -229,7 +229,7 @@ const Formulario = () => {
           </div>
         </div>
       </div>
-      <a href="https://wa.me/5491154555573" target='_blank'>
+      <a href="https://wa.me/5491154555573" target="_blank" rel="noopener noreferrer">
         <img src="../public/img/whatsapp_logo.svg" loading="lazy" alt="WhatsApp Logo" className="fixed bottom-12 right-12 z-50 w-16 h-auto"></img>
       </a>
     </form>
