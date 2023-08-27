@@ -7,7 +7,7 @@ const Footer = () => {
                         <div className=" ml-8 md:ml-16">
                             <a href="/">
                                 <img
-                                    src="../public/img/Identidad_Aprin.png"
+                                    src="../img/Identidad_Aprin.png"
                                     alt="Logo"
                                     className="w-40 h-28 md:h-24 xl:h-28"
                                 />

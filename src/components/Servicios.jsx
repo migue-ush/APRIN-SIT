@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import ImgPlanta from '/public/img/Frame-planta.png';
-import ImgServicios from '/public/img/servicio.jpg';
+import ImgPlanta from '/img/Frame-planta.png';
+import ImgServicios from '/img/servicio.jpg';
 
 
 const Servicios = () => {
