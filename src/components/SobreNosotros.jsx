@@ -1,6 +1,5 @@
 import React from 'react';
-import ImgFirst from '/public/img/redes-inform-4.jpg';
-import ImgSecond from '/public/img/desarrollo-web-a-medida-4.png';
+import ImgSecond from '/img/desarrollo-web-a-medida-4.png';
 
 const SobreNosotros = () => {
     return (
