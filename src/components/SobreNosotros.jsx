@@ -4,7 +4,7 @@ import ImgSecond from '/public/img/desarrollo-web-a-medida-4.png';
 
 const SobreNosotros = () => {
     return (
-        <div className='bg-purple-950' id='Nosotros'>
+        <div className='bg-purple-950 font-mont' id='Nosotros'>
             <div className='w-[90%] container mx-auto'>
                 {/* <section className='section-about w-full bg-purple-900 grid grid-cols-3'>
                     <div className='w-full grid col-span-1 place-items-center place-content-center'>
