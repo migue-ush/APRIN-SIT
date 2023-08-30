@@ -1,10 +1,9 @@
 import React from 'react';
-import ImgFirst from '/public/img/redes-inform-4.jpg';
-import ImgSecond from '/public/img/desarrollo-web-a-medida-4.png';
+import ImgSecond from '/img/desarrollo-web-a-medida-4.png';
 
 const SobreNosotros = () => {
     return (
-        <div className='bg-purple-950' id='Nosotros'>
+        <div className='bg-purple-950 font-mont' id='Nosotros'>
             <div className='w-[90%] container mx-auto'>
                 {/* <section className='section-about w-full bg-purple-900 grid grid-cols-3'>
                     <div className='w-full grid col-span-1 place-items-center place-content-center'>

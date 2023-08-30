@@ -2,10 +2,15 @@
 export default {
   content: ["./index.html", "./src/**/*.jsx"],
   theme: {
-    extend: {
-      backgroundImage: {
-      }
-    },
+
+    fontFamily: {
+      'spectral': ['Spectral'],
+      'mont': ['Montserrat'],
+      'robo': ['Roboto'],
+      'sour': ['Source Code Pro']
+
+    }
+
   },
   plugins: [],
 }
