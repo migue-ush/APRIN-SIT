@@ -84,7 +84,7 @@ const Formulario = () => {
   };
 
   return (
-    <form ref={form} onSubmit={sendEmail} id="Formulario" className="h-full">
+    <form ref={form} onSubmit={sendEmail} id="Formulario" className="h-full font-mont">
       <div className="mb-4 bg-purple-950">
         <div className="mx-auto p-4 bg-purple-950 container">
           <div className=" bg-purple-950 p-4 md:p-8 lg:p-12 ">
@@ -117,7 +117,7 @@ const Formulario = () => {
                 )}
             </div>
             <div className="mb-4 place-items-center grid grid-cols-1 pt-8">
-              <label className="text-white text-2xl pb-5" htmlFor="email_usuario">
+              <label className="text-white text-2xl pb-5" htmlFor="email_usuario ">
                 Correo electrónico
               </label>
               <div className="grid h-16 rounded-lg mt-2 bg-purple-800 grid-cols-12 gap-2 w-[350px] sm:w-[500px] md:w-[600px] lg:w-[940px] xl:w-[1200px] mx-auto">
@@ -139,7 +139,7 @@ const Formulario = () => {
                 )}
             </div>
             <div className="mb-4 place-items-center grid grid-cols-1 pt-8">
-              <label className="text-white text-2xl pb-5" htmlFor="tel_usuario">
+              <label className="text-white text-2xl pb-5 " htmlFor="tel_usuario">
                 Número de contacto
               </label>
               <div className="grid h-16 rounded-lg mt-2 bg-purple-800 grid-cols-12 gap-2 w-[350px] sm:w-[500px] md:w-[600px] lg:w-[940px] xl:w-[1200px] mx-auto">
@@ -149,7 +149,7 @@ const Formulario = () => {
                 <input
                   id="tel_usuario"
                   type="text"
-                  className="p-3 bg-transparent w-full text-white grid col-span-11"
+                  className="p-3 bg-transparent w-full text-white grid col-span-11 "
                   placeholder="Ej: (+54 11) 68126810"
                   name="tel_usuario"
                 />
