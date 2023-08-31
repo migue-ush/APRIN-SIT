@@ -1,12 +1,13 @@
 import React, { useState } from 'react';
 import ImgPlanta from '/img/Frame-planta.png';
+import ImgQwertty from '/img/qwertty.png';
 
 const Servicios = () => {
   const [showDesignText, setShowDesignText] = useState(true);
   return (
 
     <div className='bg-purple-950 font-mont' id='Servicios'>
-      <div className="absolute h-full w-full bg-[url('./img/qwertty.png')] bg-cover bg-center " />
+      <div className="absolute h-full w-full bg-cover bg-center" style={{ backgroundImage: `url(${ImgQwertty})` }}/>
       <div className="mx-auto p-4 bg-purple-950 container">
 
         <h1 className=" text-4xl lg:text-5xl font-bold text-white bg-purple-950 text-center p-4 mb-4">SERVICIOS</h1>
@@ -21,7 +22,7 @@ const Servicios = () => {
             <h2 className="text-2xl font-bold mt-8 ">Diseño Web</h2>
             <div>
               {showDesignText && (
-                <p className="text-justify mt-10 ">Diseñamos la apariencia visual y la experiencia del usuario en un sitio web o aplicación web. Utilizamos una variedad de herramientas y técnicas para crear diseños atractivos y funcionales que mejoren la experiencia del usuario y refuercen la marca y la identidad visual de una empresa o individuo.</p>
+                <p className="text-justify mt-10 ">Diseñamos la apariencia visual y la experiencia del usuario en un sitio web o aplicación. Utilizamos una variedad de herramientas y técnicas para crear diseños atractivos y funcionales que mejoren la experiencia del usuario, refuercen la marca y la identidad visual de una empresa o individuo.</p>
               )}
             </div>
           </div>
@@ -38,7 +39,7 @@ const Servicios = () => {
               <iconify-icon icon="iconoir:wrench" width="70" style={{ color: '#BA55D3' }}></iconify-icon>
             </div>
             <h2 className="text-2xl text-center font-bold mt-8 ">Mantenimiento</h2>
-            <p className="text-justify mt-10 ">Actualizamos y mantenemos de forma regular tu sitio web o aplicación web para garantizar su correcto funcionamiento y seguridad. Mejoramos el rendimiento e implementamos medidas de seguridad para mantener el sitio web en óptimas condiciones.</p>
+            <p className="text-justify mt-10 ">Actualizamos y mantenemos de forma regular tu sitio web o aplicación para garantizar su correcto funcionamiento y seguridad. Mejoramos el rendimiento e implementamos medidas de seguridad para mantener tu sitio en óptimas condiciones.</p>
           </div>
         </div>
         <div className=" md:grid-cols-4 gap-4 mt-28 justify-items-center ">
