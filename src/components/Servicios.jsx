@@ -1,7 +1,5 @@
 import React, { useState } from 'react';
 import ImgPlanta from '/img/Frame-planta.png';
-import ImgServicios from '/img/servicio.jpg';
-
 
 const Servicios = () => {
   const [showDesignText, setShowDesignText] = useState(true);
@@ -40,18 +38,13 @@ const Servicios = () => {
               <iconify-icon icon="iconoir:wrench" width="70" style={{ color: '#BA55D3' }}></iconify-icon>
             </div>
             <h2 className="text-2xl text-center font-bold mt-8 ">Mantenimiento</h2>
-            <p className="text-justify mt-10 ">Actualizamos y mantenemos de forma regular tu sitio web o aplicación web para garantizar su correcto funcionamiento y seguridad. Mejoramos el rendimiento e implementamos de medidas de seguridad para mantener el sitio web en óptimas condiciones.</p>
+            <p className="text-justify mt-10 ">Actualizamos y mantenemos de forma regular tu sitio web o aplicación web para garantizar su correcto funcionamiento y seguridad. Mejoramos el rendimiento e implementamos medidas de seguridad para mantener el sitio web en óptimas condiciones.</p>
           </div>
         </div>
         <div className=" md:grid-cols-4 gap-4 mt-28 justify-items-center ">
           <div className='justify-center '>
             <img src={ImgPlanta} alt="img-planta" width='200' height='260' className="lg:col-span-1 " />
           </div>
-
-          {/*<div className="col-span-3 grid place-items-center" >
-            <img src={ImgServicios} alt="img-servicios" className='md:ml-20 mt-20 w-[90%] hidden md:grid' />
-              </div>*/ }
-
         </div>
       </div>
     </div>
