@@ -92,7 +92,7 @@ const Formulario = () => {
               Formulario de contacto
             </h2>
             <h6 className="text-white mb-4 text-center text-xl">
-              Contáctese con nosotros y obtenga un asesoramiento personalizado
+              Contactate con nosotros y obtené un asesoramiento personalizado
             </h6>
             <div className="mb-4 grid place-items-center grid-cols-1 pt-8">
               <label className="text-white text-2xl pb-5" htmlFor="nombre_usuario">
@@ -106,7 +106,7 @@ const Formulario = () => {
                   id="nombre_usuario"
                   type="text"
                   className="p-3 bg-transparent w-full text-white grid col-span-11"
-                  placeholder="Escriba su nombre completo"
+                  placeholder="Escribí tu nombre"
                   name="nombre_usuario"
                 />
               </div>
@@ -128,7 +128,7 @@ const Formulario = () => {
                   id="email_usuario"
                   type="email"
                   className="p-3 bg-transparent w-full text-white grid col-span-11"
-                  placeholder="Escriba un email donde desea obtener respuesta"
+                  placeholder="Escribí tu email"
                   name="email_usuario"                  
                 />
               </div>
@@ -162,7 +162,7 @@ const Formulario = () => {
             </div>
             <div className="mb-4 place-items-center grid grid-cols-1 pt-8">
               <label className="text-white text-2xl pb-5" htmlFor="servicio">
-                Selecciona el servicio deseado
+                Seleccioná el servicio deseado
               </label>
               <div className="grid h-16 rounded-lg mt-2 bg-purple-800 grid-cols-12 gap-2 w-[350px] sm:w-[500px] md:w-[600px] lg:w-[940px] xl:w-[1200px] mx-auto">
                 <select
@@ -180,7 +180,7 @@ const Formulario = () => {
                   }}
                 >
                   <option className="text-black" value="">
-                    Seleccione un servicio
+                    Seleccioná un servicio
                   </option>
                   <option className="text-black" value="disenio_web">
                     Diseño web
@@ -202,7 +202,7 @@ const Formulario = () => {
             </div>
             <div className="mb-4 grid grid-cols-1 place-items-center pt-8 pb-10">
               <label className="text-white text-2xl pb-5" htmlFor="notas">
-                ¿Tienes alguna pregunta o solicitud especial?
+                ¿Tenés alguna pregunta o solicitud especial?
               </label>
               <div className="grid place-content-center rounded-lg mt-2 bg-purple-800 grid-cols-12 gap-2 w-[350px] sm:w-[500px] md:w-[600px] lg:w-[940px] xl:w-[1200px]  mx-auto h-32">
                 <textarea
@@ -210,7 +210,7 @@ const Formulario = () => {
                   id="notas"
                   type="text"
                   className="p-3 w-full h-32 bg-transparent text-white grid col-span-12 resize-none"
-                  placeholder="Si lo desea agregue una pregunta o una solicitud especial"
+                  placeholder="Escribí tu pregunta o solicitud"
                   name="notas"
                 />
               </div>
