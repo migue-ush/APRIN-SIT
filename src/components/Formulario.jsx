@@ -117,7 +117,7 @@ const Formulario = () => {
                 )}
             </div>
             <div className="mb-4 place-items-center grid grid-cols-1 pt-8">
-              <label className="text-white text-2xl pb-5" htmlFor="email_usuario ">
+              <label className="text-white text-2xl pb-5" htmlFor="email_usuario">
                 Correo electrónico
               </label>
               <div className="grid h-16 rounded-lg mt-2 bg-purple-800 grid-cols-12 gap-2 w-[350px] sm:w-[500px] md:w-[600px] lg:w-[940px] xl:w-[1200px] mx-auto">
