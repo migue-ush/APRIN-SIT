@@ -87,7 +87,7 @@ const Formulario = () => {
     <form ref={form} onSubmit={sendEmail} id="Formulario" className="h-full font-mont">
       <div className="mb-4 bg-purple-950">
         <div className="mx-auto p-4 bg-purple-950 container">
-          <div className=" bg-purple-950 p-4 md:p-8 lg:p-12 ">
+          <div className=" bg-purple-950 md:p-8 lg:p-12 ">
             <h2 className="text-white text-3xl uppercase lg:text-4xl 2xl:text-5xl mb-4 text-center font-bold pt-12">
               Formulario de contacto
             </h2>
