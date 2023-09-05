@@ -146,7 +146,7 @@ const Formulario = () => {
               Número de contacto
             </label>
             <div className="grid h-16 rounded-lg mt-2 bg-purple-800 grid-cols-12 gap-2 w-[350px] sm:w-[500px] md:w-[600px] lg:w-[940px] xl:w-[1200px] mx-auto">
-              <span className="flex items-center p-3 text-white">
+              <span className="p-3 text-white col-span-1 grid place-content-center">
                 <i className="ml-1 fas fa-phone"></i>
               </span>
               <input
