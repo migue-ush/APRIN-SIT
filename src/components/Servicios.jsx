@@ -6,14 +6,14 @@ const Servicios = () => {
   const [showDesignText, setShowDesignText] = useState(true);
   return (
 
-    <div className='bg-purple-950 font-mont' id='Servicios'>
+    <div className='bg-purple-950 font-mont pb-60' id='Servicios'>
       <div className="absolute h-full w-full bg-cover bg-center" style={{ backgroundImage: `url(${ImgQwertty})` }}/>
       <div className="mx-auto p-4 bg-purple-950 container">
 
-        <h1 className=" text-4xl lg:text-5xl font-bold text-white bg-purple-950 text-center p-4 mb-4">SERVICIOS</h1>
+        <h1 className=" text-4xl lg:text-5xl font-bold text-white bg-purple-950 text-center p-4 mb-4 mt-32">SERVICIOS</h1>
 
         <div className="grid  grid-cols-1 md:grid-cols-3 gap-4">
-
+          
           <div className="bg-purple-950 p-4 text-white text-center">
             <div className="">
               <iconify-icon icon="ph:pen-nib-light" width="70" style={{ color: '#BA55D3' }}></iconify-icon>
@@ -42,11 +42,11 @@ const Servicios = () => {
             <p className="text-justify mt-10 ">Actualizamos y mantenemos de forma regular tu sitio web o aplicación para garantizar su correcto funcionamiento y seguridad. Mejoramos el rendimiento e implementamos medidas de seguridad para mantener tu sitio en óptimas condiciones.</p>
           </div>
         </div>
-        <div className=" md:grid-cols-4 gap-4 mt-28 justify-items-center ">
+        {/* <div className=" md:grid-cols-4 gap-4 mt-28 justify-items-center ">
           <div className='justify-center '>
             <img src={ImgPlanta} alt="img-planta" width='200' height='260' className="lg:col-span-1 " />
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
