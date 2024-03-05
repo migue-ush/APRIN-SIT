@@ -218,7 +218,7 @@ const Formulario = () => {
             <label className="text-white text-2xl pb-5" htmlFor="notas">
               ¿Tenés alguna pregunta o solicitud especial?
             </label>
-            <div className="grid h-16 rounded-lg mt-2 bg-purple-800 grid-cols-12 gap-2 mx-auto w-1/2 h-40">
+            <div className="grid  rounded-lg mt-2 bg-purple-800 grid-cols-12 gap-2 mx-auto w-1/2 h-40">
               <textarea
                 as="textarea"
                 id="notas"
@@ -245,15 +245,15 @@ const Formulario = () => {
         </div>
       </form>
       <a
-        href="https://wa.me/5491154555573"
+        href="https://wa.me/5491154867763"
         target="_blank"
         rel="noopener noreferrer"
       >
         <img
-          src="../img/whatsapp_logo.svg"
+          src="/img/whatsapp_logo.svg"
           loading="lazy"
           alt="WhatsApp Logo"
-          className="fixed bottom-12 right-12 z-50 w-16 h-auto"
+          className="fixed bottom-36 right-4 md:right-12 z-50 w-14 md:w-16 h-auto"
         ></img>
       </a>
     </div>
