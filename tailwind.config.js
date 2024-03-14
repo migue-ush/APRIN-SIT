@@ -10,7 +10,6 @@ export default {
       'sour': ['Source Code Pro']
 
     }
-
   },
   plugins: [],
 }
