@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import ImgPlanta from '/img/Frame-planta.png';
 import ImgQwertty from '/img/qwertty.png';
 
 const Servicios = () => {
