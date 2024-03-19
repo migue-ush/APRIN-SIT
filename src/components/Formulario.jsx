@@ -106,9 +106,9 @@ const Formulario = () => {
           className="font-mont flex flex-wrap flex-col justify-center"
         >
           <div className="mx-auto p-2 bg-white/5 container">
-            <div className="mb-2 grid place-items-center grid-cols-1">
+            <div className="mb-2 grid place-items-left grid-cols-1">
               <label
-                className="text-white text-xl"
+                className="ml-16 text-white text-lg"
                 htmlFor="nombre_usuario"
               >
                 Nombre y Apellido
@@ -126,13 +126,13 @@ const Formulario = () => {
                 />
               </div>
               {validationErrors.nombre_usuario && (
-                <div className="text-red-500 font-bold">
+                <div className="ml-16 text-red-500 font-bold">
                   {validationErrors.nombre_usuario}
                 </div>
               )}
             </div>
-            <div className="mb-2 place-items-center grid grid-cols-1 pt-2">
-              <label className="text-white text-xl" htmlFor="email_usuario">
+            <div className="mb-2 place-items-left grid grid-cols-1 pt-2">
+              <label className="ml-16 text-white text-lg" htmlFor="email_usuario">
                 Correo electrónico
               </label>
               <div className="grid h-10 rounded-lg mt-2 bg-purple-800 grid-cols-12 gap-2 mx-auto w-4/5">
@@ -148,13 +148,13 @@ const Formulario = () => {
                 />
               </div>
               {validationErrors.email_usuario && (
-                <div className="text-red-500 font-bold">
+                <div className="ml-16 text-red-500 font-bold">
                   {validationErrors.email_usuario}
                 </div>
               )}
             </div>
-            <div className="mb-2 place-items-center grid grid-cols-1 pt-2">
-              <label className="text-white text-xl" htmlFor="tel_usuario">
+            <div className="mb-2 place-items-left grid grid-cols-1 pt-2">
+              <label className="ml-16 text-white text-lg" htmlFor="tel_usuario">
                 Número de contacto
               </label>
               <div className="grid h-10 rounded-lg mt-2 bg-purple-800 grid-cols-12 gap-2 mx-auto w-4/5">
@@ -170,13 +170,13 @@ const Formulario = () => {
                 />
               </div>
               {validationErrors.tel_usuario && (
-                <div className="text-red-500 font-bold">
+                <div className="ml-16 text-red-500 font-bold">
                   {validationErrors.tel_usuario}
                 </div>
               )}
             </div>
-            <div className="mb-2 place-items-center grid grid-cols-1 pt-2 outline-none">
-              <label className="text-white text-xl" htmlFor="servicio">
+            <div className="mb-2 place-items-left grid grid-cols-1 pt-2 outline-none">
+              <label className="ml-16 text-white text-lg" htmlFor="servicio">
                 Seleccioná el servicio deseado
               </label>
               <div className="grid h-10 rounded-lg mt-2 bg-purple-800 grid-cols-12 gap-2 mx-auto w-4/5">
@@ -211,13 +211,13 @@ const Formulario = () => {
                 </select>
               </div>
               {validationErrors.servicio && (
-                <div className="text-red-500 font-bold">
+                <div className="ml-16 text-red-500 font-bold">
                   {validationErrors.servicio}
                 </div>
               )}
             </div>
             <div className="mb-2 grid grid-cols-1 place-items-center pt-3 pb-2">
-              <label className="text-white text-center text-xl pb-2 w-4/5" htmlFor="notas">
+              <label className="text-white text-left text-lg pb-2 w-4/5" htmlFor="notas">
                 ¿Tenés alguna pregunta o solicitud especial?
               </label>
               <div className="grid rounded-lg bg-purple-800 grid-cols-12 gap-2 mx-auto h-30 w-4/5">
@@ -240,7 +240,7 @@ const Formulario = () => {
           <div className="grid bg-white/5 place-items-center py-2">
             <button
               type="submit"
-              className="w-32 h-10 mb-4 lg:w-[300px] lg:h-10 bg-purple-700 hover:bg-purple-400 duration-700 hover:text-violet-900 text-white font-bold border-purple-700 hover:border-purple-500 rounded-md text-xl shadow-md shadow-violet-800 hover:shadow-violet-500 hover:rounded-md"
+              className="w-32 h-10 mb-4 lg:w-[180px] lg:h-10 bg-purple-700 hover:bg-purple-400 duration-700 hover:text-violet-900 text-white font-bold border-purple-700 hover:border-purple-500 rounded-md text-xl shadow-md shadow-violet-800 hover:shadow-violet-500 hover:rounded-md"
             >
               ENVIAR
             </button>
