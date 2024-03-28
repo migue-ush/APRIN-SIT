@@ -1,5 +1,5 @@
 import React from 'react';
-import ImgSecond from '/img/desarrollo-web-a-medida-4.png';
+import ImgSecond from '/img/desarrollo-web-a-medida-4.webp';
 
 const SobreNosotros = () => {
     return (
