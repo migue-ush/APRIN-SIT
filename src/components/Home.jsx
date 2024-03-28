@@ -18,7 +18,7 @@ const Home = () => {
                 className="opacity-60 sm:text-lg pl-5 font-bold lg:text-2xl md:text-xl tracking-widest pt-[55%] sm:pt-[40%] md:pt-[30%] lg:pt-[23%] xl:pt-[15%]"
             >
                 El impulso que buscás para potenciar tu negocio <br/>
-                a nivel tecnológico y generar clientes nuevos y fieles.        
+                a nivel tecnológico y generar clientes nuevos y fieles
             </Typography>
         </div>
     </div>

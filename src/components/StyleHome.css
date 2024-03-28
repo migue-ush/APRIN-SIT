@@ -1,0 +1,20 @@
+.animated-gradient {
+    background-clip: text;
+    color: transparent;
+    background-size: 300% 300%;
+    background-position: 0% 50%;
+    animation: gradientAnimation 4s infinite linear;
+  }
+  
+  @keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 0%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
