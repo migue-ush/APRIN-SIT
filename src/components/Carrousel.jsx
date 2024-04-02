@@ -10,8 +10,6 @@ window.addEventListener("load", () => {
     window.swiffyslider.init();
 });
 
-
-
 const Carrousel = () => {
 
     const imagenesLogos = imgCar.imagenesLogoCar;
@@ -33,30 +31,30 @@ const Carrousel = () => {
                         slider-item-ratio-32x9
                         bg-[#6b4996] shadow-lg py-3 py-lg-4" data-slider-nav-autoplay-interval="1500">
             <div className="slider-container">
-                {
-                    imagenesLogos.map((imgLogo, index)=>{
-                        <div key={index}>
-                            <Image 
-                                src={imgLogo.imgSrc} 
-                                alt={imgLogo.alt}
-                                width={450}
-                                height={150}
-                                loading={lazy}
-                             />
-                        </div>
-
-                    })
-                }
-
-
+                
+                <div>
+                    <img src='../img/logos/css.svg' alt="..." />
+                </div>
+                <div>
+                    <img src='../img/logos/github.svg' alt="..." />
+                </div>
+                <div>
+                    <img src='../img/logos/html5.svg' alt="..." />
+                </div>
+                <div>
+                    <img src='../img/logos/javascript.svg' alt="..." />
+                </div>
+                <div>
+                    <img src='../img/logos/mongodb-wordmark.svg' alt="..." />
+                </div>
+                <div>
+                    <img src='../img/logos/mysql.svg' alt="..." />
+                </div>
                 <div>
                     <img src='../img/logos/nextjs_icon_dark.svg' alt="..." />
                 </div>
                 <div>
-                    <img src='../img/logos/nodejs.svg' alt="..." />
-                </div>
-                <div>
-                    <img src='../img/logos/nextjs_icon_dark.svg' alt="..." />
+                    <img src='../img/logos/nodejs.avif' alt="..." />
                 </div>
                 <div>
                     <img src='../img/logos/react.svg' alt="..." />
@@ -64,23 +62,6 @@ const Carrousel = () => {
                 <div>
                     <img src='../img/logos/tailwindcss.svg' alt="..." />
                 </div>
-                <div>
-                    <img src='../img/logos/nextjs_icon_dark.svg' alt="..." />
-                </div>
-                <div>
-                    <img src='../img/logos/nodejs.svg' alt="..." />
-                </div>
-                <div>
-                    <img src='../img/logos/nextjs_icon_dark.svg' alt="..." />
-                </div>
-                <div>
-                    <img src='../img/logos/react.svg' alt="..." />
-                </div>
-                <div>
-                    <img src='../img/logos/tailwindcss.svg' alt="..." />
-                </div>
-                
-                
             </div>
 
             <button type="button" className="slider-nav" aria-label="Go left"></button>
