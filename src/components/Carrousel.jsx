@@ -15,7 +15,7 @@ const Carrousel = () => {
     const imagenesLogos = imgCar.imagenesLogoCar;
 
     return (
-        <div className="
+        <div className="mb-32
                         swiffy-slider 
                         slider-item-show4 
                         slider-nav-outside 
