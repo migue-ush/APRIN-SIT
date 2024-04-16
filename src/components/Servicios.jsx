@@ -4,7 +4,7 @@ import ImgQwertty from '/img/qwertty.png';
 
 const Servicios = () => {
   return (
-    <div className="bg-purple-950 font-mont pb-60" id="Servicios">
+    <div className="bg-purple-950 font-mont pb-32" id="Servicios">
       <div
         className="absolute h-full w-full bg-cover bg-center"
         style={{ backgroundImage: `url(${ImgQwertty})` }}
