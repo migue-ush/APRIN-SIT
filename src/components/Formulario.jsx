@@ -85,10 +85,11 @@ const Formulario = () => {
   };
 
   return (
-    <div className="max-w-2xl mx-auto p-1 rounded-2xl bg-white/5 md:shadow-2xl mb-2 mt-2">
+    <div className="px-4">
+    <div className="max-w-2xl mx-auto p-1 bg-white/5 md:shadow-2xl mb-2 mt-2 border-purple-400 border-2 rounded-2xl">
       <div className="mb-2 bg-purple-950">
 
-        <div className="mx-auto container">
+        <div className="mx-auto">
 
           <div className=" bg-white/5 md:p-4 lg:p-2 ">
             <h2 className="text-white text-3xl uppercase lg:text-4xl 2xl:text-5xl mb-2 text-center font-bold pt-4">
@@ -105,7 +106,7 @@ const Formulario = () => {
           id="Formulario"
           className="font-mont flex flex-wrap flex-col justify-center"
         >
-          <div className="mx-auto p-2 bg-white/5 container">
+          <div className="p-2 bg-white/5">
             <div className="mb-2 grid place-items-left grid-cols-1">
               <label
                 className="ml-16 text-white text-lg"
@@ -259,6 +260,7 @@ const Formulario = () => {
           ></img>
         </a>
       </div>
+    </div>
     </div>
   );
 };
