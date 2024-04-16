@@ -17,9 +17,9 @@ function App() {
       
       <Home/>
       <Servicios/>
+      <Carrousel />
       <Formulario/>
       <SobreNosotros/>
-      <Carrousel />
       <Footer/>
     </div>
   )
