@@ -4,6 +4,7 @@ import Formulario from './components/Formulario'
 import SobreNosotros from './components/SobreNosotros'
 import Footer from './components/Footer'
 import Navbar from './components/Navbar'
+import Carrousel from './components/Carrousel'
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       
       <Home/>
       <Servicios/>
+      <Carrousel />
       <Formulario/>
       <SobreNosotros/>
       <Footer/>

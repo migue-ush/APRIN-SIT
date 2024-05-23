@@ -1,0 +1,25 @@
+{
+    "imagenesLogoCar": [
+      {
+        "nombreTec": "nextjs",
+        "alt":"Logo NextJS",
+        "imgSrc": "img/servicio.jpg"
+      },
+      {
+        "nombreTec": "nodejs",
+        "alt":"Logo NodeJS",
+        "imgSrc": "img/logos/nodejs.svg"
+      },
+      {
+        "nombreTec": "react",
+        "alt":"Logo React",
+        "imgSrc": "img/logos/react.svg"
+      },{
+        "nombreTec": "react",
+        "alt":"Logo TailwindCSS",
+        "imgSrc": "img/logos/tailwindcss.svg"
+      }
+      
+    ]
+  }
+  

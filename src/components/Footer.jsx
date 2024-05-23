@@ -9,7 +9,7 @@ const Footer = () => {
                                 <img
                                     src="../img/Identidad_Aprin.png"
                                     alt="Logo"
-                                    className="w-40 h-28 md:h-24 xl:h-28"
+                                    className="w-40 h-28 md:h-24 xl:h-28 hover:scale-125 duration-500"
                                 />
                             </a>
                         </div>
@@ -32,12 +32,12 @@ const Footer = () => {
                             <li className="mr-8">
 
                                 <a href="https://www.instagram.com/aprin_sit/" target='_blank' rel="noopener noreferrer">                                
-                                    <i className="fab fa-instagram" style={{ fontSize: "35px" }}></i>
+                                    <i className="fab fa-instagram hover:text-red-500 duration-500" style={{ fontSize: "35px" }}></i>
                                 </a>
                             </li>
                             <li>
                                 <a href="https://www.facebook.com/profile.php?id=100095344063526" target='_blank' rel="noopener noreferrer">
-                                    <i className="fab fa-facebook" style={{ fontSize: "35px" }}></i>
+                                    <i className="fab fa-facebook hover:text-blue-500 duration-500" style={{ fontSize: "35px" }}></i>
                                 </a>
                             </li>
                         </ul>
