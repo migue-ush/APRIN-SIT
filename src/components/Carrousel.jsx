@@ -1,4 +1,44 @@
-"use client";
+import React from 'react';
+import Ticker from 'framer-motion-ticker';
+
+const image1 = '../img/logos/css.svg';
+const image2 = '../img/logos/github.svg';
+const image3 = '../img/logos/html5.svg';
+const image4 = '../img/logos/javascript.svg';
+const image5 = '../img/logos/mongodb-wordmark.svg';
+const image6 = '../img/logos/mysql.svg';
+const image7 = '../img/logos/nextjs_icon_dark.svg';
+const image8 = '../img/logos/nodejs.avif';
+const image9 = '../img/logos/react.svg';
+const image10 = '../img/logos/tailwindcss.svg';
+
+function TickerAprin() {
+    const images = [ image1, image2, image3, image4, image5, image6, image7, image8, image9, image10 ];
+    return (
+        <div className='bg-white bg-opacity-10 mb-20'>
+            <Ticker duration={17} direction={1} >
+                {images.map((item, index) => (
+                    <div key={index} className="w-14 md:w-20 mx-5 md:mx-20 my-auto py-6">
+                        <img
+                            src={item}
+                            alt={`Image ${index}`}
+                            style={{
+                                backgroundColor: item,
+                                display: 'flex',
+                                justifyContent: 'space-between',
+                            }}
+                        ></img>
+                    </div>
+
+                ))}
+            </Ticker>
+        </div>
+    );
+}
+export default TickerAprin;
+
+
+/* "use client";
 import React, { useEffect } from 'react'
 import imgCar from "../data/imagenesCar.json"
 import { swiffyslider } from 'swiffy-slider';
@@ -71,3 +111,4 @@ const Carrousel = () => {
     )
 }
 export default Carrousel;
+ */
