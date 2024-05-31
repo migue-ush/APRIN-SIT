@@ -1,5 +1,5 @@
 import {Typography} from "@material-tailwind/react";
-import ImgFondo from '/img/img-home-aprin.jpg';
+import ImgFondo from '/img/img-home-aprin.avif';
 
 const Home = () => {
     return (
