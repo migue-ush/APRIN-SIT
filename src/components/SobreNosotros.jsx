@@ -1,5 +1,5 @@
 import React from 'react';
-import ImgSecond from '/img/sobre-nosotros.jpg';
+import ImgSecond from '/img/sobre-nosotros.avif';
 
 const SobreNosotros = () => {
     return (
