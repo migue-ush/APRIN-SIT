@@ -5,22 +5,36 @@ import SobreNosotros from './components/SobreNosotros'
 import Footer from './components/Footer'
 import Navbar from './components/Navbar'
 import Carrousel from './components/Carrousel'
+import useValidar from './hook/useValidar'
 
 
 function App() {
+  const {
+    validationErrors,
+    setValidationErrors,
+    form,
+    sendEmail
+
+  } = useValidar()
 
   return (
     <div className='bg-purple-950'>
       <div className="container absolute left-2/4 z-10 mx-auto -translate-x-2/4 p-4">
-        <Navbar/>
+        <Navbar />
       </div>
-      
-      <Home/>
-      <Servicios/>
+
+      <Home />
+      <Servicios />
       <Carrousel />
-      <Formulario/>
-      <SobreNosotros/>
-      <Footer/>
+      <Formulario
+        validationErrors={validationErrors}
+        setValidationErrors={setValidationErrors}
+        form={form}
+        sendEmail={sendEmail}
+      />
+
+      <SobreNosotros />
+      <Footer />
     </div>
   )
 }
