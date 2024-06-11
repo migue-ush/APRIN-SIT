@@ -2,15 +2,24 @@
 export default {
   content: ["./index.html", "./src/**/*.jsx"],
   theme: {
-
-    fontFamily: {
-      'spectral': ['Spectral'],
-      'mont': ['Montserrat'],
-      'robo': ['Roboto'],
-      'sour': ['Source Code Pro']
-
+    extend: {
+      fontFamily: {
+        'spectral': ['Spectral'],
+        'mont': ['Montserrat'],
+        'robo': ['Roboto'],
+        'sour': ['Source Code Pro']
+      }
     }
   },
-  plugins: [],
+  plugins: [
+    function ({ addUtilities }) {
+      const newUtilities = {
+        '.masked-image': {
+          'mask-image': 'radial-gradient(ellipse, black 50%, transparent 74%)',
+          '-webkit-mask-image': 'radial-gradient(ellipse, black 50%, transparent 74%)', // Para Safari
+        },
+      }
+      addUtilities(newUtilities, ['responsive', 'hover'])
+    }
+  ],
 }
-

@@ -19,7 +19,7 @@ const Home = () => {
             >
                 En APRIN encontramos el impulso que buscás para potenciar tu negocio <br/>
                 a nivel tecnológico y generar nuevos clientes.
-                Con nuestra equipo de expertos lograremos encontrar la mejor solución para tu negocio.
+                Con nuestro equipo de expertos lograremos encontrar la mejor solución para tu empresa.
             </Typography>
         </div>
     </div>
